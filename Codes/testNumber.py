@@ -14,7 +14,8 @@ f2 = 7e-06
 
 print(f1,'{:f}'.format(f2))
 
-from datetime import datetime, timedelta, time
+from datetime import datetime, timedelta,time
+
     
 d = datetime.today() + timedelta(days=2)
 print(d)
@@ -28,6 +29,14 @@ print("Age : ",datetime.now().year-dayofBirth.year)
 studyTime = datetime(2022,8,2,hour=8,minute=30,second=00)
 print(studyTime)
 
-time_change = timedelta(hours=4)
+time_change = timedelta(minutes=30)
 finish = studyTime + time_change
-print(finish)
+
+dayofweek = ['จันทร์','อังคาร','พุธ','พฤหัสฯ','ศุกร์','เสาร์','อาทิตย์']
+#Return the day of the week as an integer, where Monday is 0 and Sunday is 6.
+daywk = studyTime.weekday()
+monthstr = ['','มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม',
+            'กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม']
+monthNo = studyTime.month
+
+print(dayofweek[daywk]+finish.strftime(' %d '+monthstr[monthNo]+' %Y %H-%M-%S'))

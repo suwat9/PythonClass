@@ -2,5 +2,5 @@
 Codes for python programming
 
 การเขียนโปรแกรมภาษาไพธอน
-1. ตัวอย่างโปรแกรมโจทย์ปลากระป๋อง
-1. โจทย์เรื่องชั่วโมงอินเทอร์เน็ต
+1. [ตัวอย่างโปรแกรมโจทย์ปลากระป๋อง](https://github.com/suwat9/PythonClass/blob/main/Codes/FishProblem.py)
+1. [โจทย์เรื่องชั่วโมงอินเทอร์เน็ต](https://github.com/suwat9/PythonClass/blob/main/Codes/internetProblem.py)

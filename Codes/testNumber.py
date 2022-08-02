@@ -18,3 +18,9 @@ from datetime import datetime, timedelta
     
 d = datetime.today() + timedelta(days=2)
 print(d)
+
+yearofBirth = 2546-543
+dayofBirth = datetime(yearofBirth,10,5)
+
+print(dayofBirth)
+print("Age : ",datetime.now().year-dayofBirth.year)

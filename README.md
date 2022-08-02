@@ -7,3 +7,4 @@ Codes for python programming
 1. [ทดสอบตัวเลขแบบต่าง ๆ](https://github.com/suwat9/PythonClass/blob/main/Codes/testNumber.py)
 1. [ทดสอบการใช้งาน Numpy](https://github.com/suwat9/PythonClass/blob/main/Codes/testNumpy.py)
 1. [ทดสอบการใช้งาน String](https://github.com/suwat9/PythonClass/blob/main/Codes/testString.py)
+1. [ทดสอบการอ่านไฟล์ DOCX](https://github.com/suwat9/PythonClass/blob/main/Codes/readDocx.py)

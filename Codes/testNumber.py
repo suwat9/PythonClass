@@ -38,5 +38,6 @@ daywk = studyTime.weekday()
 monthstr = ['','มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม',
             'กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม']
 monthNo = studyTime.month
+yearthai = studyTime.year + 543
 
-print(dayofweek[daywk]+finish.strftime(' %d '+monthstr[monthNo]+' %Y %H-%M-%S'))
+print(dayofweek[daywk]+finish.strftime(' %d '+monthstr[monthNo]+' '+str(yearthai)+' %H-%M-%S'))

@@ -16,4 +16,8 @@ while (useUnit > data['หน่วยที่ใช้'][nextRate] ):
   totalPrice = totalPrice +( (data['หน่วยที่ใช้'][nextRate]-data['หน่วยที่ใช้'][nextRate-1]) * data['ราคาต่อหน่วย'][nextRate-1])
   nextRate = nextRate + 1
 
+if (useUnit <= data['หน่วยที่ใช้'][nextRate]):
+  totalPrice = totalPrice + ( ( useUnit - data['หน่วยที่ใช้'][nextRate-1] + 1) * data['ราคาต่อหน่วย'][nextRate-1])
+
+#81.3165
 print(totalPrice)

@@ -55,8 +55,10 @@ print(numbers_to_month(36 % 12))
 
 monthFull = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 monthShort = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+monthThai = ['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม']
 
-monthNo = 11 % 12
+monthNo = 12 % 12
 
 print(monthFull[monthNo])
 print(monthShort[monthNo])
+print(monthThai[monthNo])

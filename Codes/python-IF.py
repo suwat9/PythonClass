@@ -32,3 +32,23 @@ def numbers_to_weekDay(argument):
     return switcher.get(argument, "ไม่รู้วันอะไร")
 
 print(numbers_to_weekDay(7))
+
+
+def numbers_to_month(m):
+  switcher = {
+      0: "January",
+      1: "February",
+      2: "March",
+      3: "April",
+      4: "May",
+      5: "June",
+      6: "July",
+      7: "August",
+      8: "September",
+      9: "October",
+      10: "November",
+      11: "December"
+  }
+  return switcher.get(m, "unknow")
+
+print(numbers_to_month(36 % 12))

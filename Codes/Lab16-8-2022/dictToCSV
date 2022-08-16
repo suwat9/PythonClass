@@ -1,0 +1,13 @@
+import csv
+  
+student_info = ['รหัสนักศึกษา', 'ชื่อนักศึกษา', 'นามสกุล','ชื่อเล่น','เบอร์โทร']
+  
+new_dict = [
+    {'รหัสนักศึกษา':'654272100', 'ชื่อนักศึกษา':'สุวัฒน์', 
+     'นามสกุล':'เตชะเพชรไพบูลย์','ชื่อเล่น':'tae','เบอร์โทร':'0865248735'}
+]
+  
+with open('d:/data1/student.csv', 'w', newline='',encoding='UTF16') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames = student_info)
+    writer.writeheader()
+    writer.writerows(new_dict)

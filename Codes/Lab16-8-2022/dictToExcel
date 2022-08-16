@@ -1,0 +1,14 @@
+!pip install pandas
+!pip install openpyxl
+
+import pandas as pd
+
+student_dict = {'รหัสนักศึกษา':'654272100', 'ชื่อนักศึกษา':'สุวัฒน์', 
+     'นามสกุล':'เตชะเพชรไพบูลย์','ชื่อเล่น':'tae','เบอร์โทร':'0865248735'}
+
+# convert into dataframe
+df = pd.DataFrame(data=student_dict, index=[1])
+
+#convert into excel
+df.to_excel("d:/data1/student.xlsx", index=False)
+print("Dictionary converted into excel...")

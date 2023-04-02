@@ -1,4 +1,3 @@
-from traitlets.traitlets import default
 dayOfWeek = 7
 dayOfWeek = dayOfWeek % 7   #หารเอาเศษ
 

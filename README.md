@@ -2,9 +2,6 @@
 Codes for python programming
 
 การเขียนโปรแกรมภาษาไพธอน
-1. [ตัวอย่างโปรแกรมโจทย์ปลากระป๋อง](https://github.com/suwat9/PythonClass/blob/main/Codes/FishProblem.py)
-1. [โจทย์เรื่องชั่วโมงอินเทอร์เน็ต](https://github.com/suwat9/PythonClass/blob/main/Codes/internetProblem.py)
-1. [ทดสอบตัวเลขแบบต่าง ๆ](https://github.com/suwat9/PythonClass/blob/main/Codes/testNumber.py)
-1. [ทดสอบการใช้งาน Numpy](https://github.com/suwat9/PythonClass/blob/main/Codes/testNumpy.py)
-1. [ทดสอบการใช้งาน String](https://github.com/suwat9/PythonClass/blob/main/Codes/testString.py)
-1. [ทดสอบการอ่านไฟล์ DOCX](https://github.com/suwat9/PythonClass/blob/main/Codes/readDocx.py)
+Colab:
+1. [การใช้ภาษาไทยใน Colab](https://kamkanyawee.medium.com/%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%9C%E0%B8%A5%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B8%82%E0%B8%AD%E0%B8%87-matplotlib-%E0%B8%9A%E0%B8%99-google-colab-37210d9a9f31)
+2. 

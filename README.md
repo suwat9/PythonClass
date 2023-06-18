@@ -8,3 +8,4 @@ Colab:
 3. [Dashboard1](https://github.com/suwat9/PythonClass/blob/main/CodeAI/Dashboard1.py)
 4. [แสดงข้อมูลเตียงตึกศัลยกรรม](https://github.com/suwat9/PythonClass/blob/main/CodeAI/surgery1.py)
 5. [แสดงข้อมูลเตียงตึกศัลยกรรมและออร์โธปิดิกส์](https://github.com/suwat9/PythonClass/blob/main/CodeAI/sur_ortho1.py)
+6. [แสดงสิทธิ์การรักษา](https://github.com/suwat9/PythonClass/blob/main/CodeAI/priority1.py)

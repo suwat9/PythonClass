@@ -1,0 +1,84 @@
+09:16:09 From  2 นายจาตุรงค์  เกษธนัง  to  Everyone:
+	ได้ครับผม
+09:25:00 From  Paisarn Khanteesa  to  Everyone:
+	ได้ครับ
+09:25:01 From  2 นายจาตุรงค์  เกษธนัง  to  Everyone:
+	ได้ครับ
+09:28:00 From  2 นายจาตุรงค์  เกษธนัง  to  Everyone:
+	ได้ครับ
+09:28:00 From  Paisarn Khanteesa  to  Everyone:
+	ได้ครับ
+09:38:51 From  2 นายจาตุรงค์  เกษธนัง  to  Everyone:
+	ได้ครับผม
+09:38:52 From  Information Faculty  to  Everyone:
+	ward848587 = df[df['code'].isin([84,85,87])]	ward848587
+09:53:12 From  WIRAT  to  Everyone:
+	import matplotlib.pyplot as plt
+10:00:01 From  Thannicha Thongyoo  to  Everyone:
+	ได้ค่ะ
+10:08:52 From  Sakarin Habusaya  to  Everyone:
+	ขอ code ครับ อ
+10:09:07 From  Information Faculty  to  Everyone:
+	import matplotlib.pyplot  as plt	ward848587 = df[df['code'].isin([84,85,87])]		plt.figure(figsize=(5,3))	axs = plt.axes()		barvalue = axs.barh(ward848587['code'],ward848587['admit'],color='orange')	axs.set_yticks(ward848587['code'])	axs.set_yticklabels(['ศัลยกรรมชาย','ศัลยกรรมหญิง','หอผู้ป่วยหนักศัลยกรรม'])	axs.bar_label(barvalue)	plt.title('ข้อมูลเตียงตึกศัลยกรรม')
+10:10:36 From  Information Faculty  to  Everyone:
+	https://github.com/suwat9/PythonClass/blob/main/README.md
+10:19:18 From  สมบูรณ์ ปานโยธา  to  Everyone:
+	เซ็คเซฟเวอร์ใน VM raspberyPi ได้ไหมครับอาจารย์
+10:20:30 From  Thannicha Thongyoo  to  Everyone:
+	Project จะให้ทำประมาณไหนคะ
+10:34:29 From  Thannicha Thongyoo  to  Everyone:
+	ทันค่ะ
+10:42:07 From  Thannicha Thongyoo  to  Everyone:
+	2*3
+11:05:19 From  Thannicha Thongyoo  to  Everyone:
+	ได้นิดหน่อยค่ะ
+11:08:59 From  15 จำลักษณ์ ศรีปัญญา(จอ2)  to  Everyone:
+	ก็ดีครับ
+11:22:42 From  Information Faculty  to  Everyone:
+	priority.groupby('pttype_name')['income'].sum()
+11:26:32 From  บุญเชิด พานทอง  to  Everyone:
+	เช็คชื่อป่าวครับ
+11:28:11 From  WIRAT  to  Everyone:
+	วิรัตน์ จำพรต
+11:28:12 From  Sakarin Habusaya  to  Everyone:
+	สาครินทร์ หาบุศย์
+11:28:14 From  Paisarn Khanteesa  to  Everyone:
+	ไพศาล ขันตีสา
+11:28:18 From  Pasathorn Sirithiranont  to  Everyone:
+	พสธร ศิริธีรานนท์
+11:28:21 From  15 จำลักษณ์ ศรีปัญญา(จอ2)  to  Everyone:
+	จำลักษณ์  ศรีปัญญา
+11:28:22 From  BOONYOM​ SAYBUT​  to  Everyone:
+	นาย  บุญ ยม  สาย บุตร
+11:28:22 From  สมบูรณ์ ปานโยธา  to  Everyone:
+	สมบูรณ์ ปานโยธา
+11:28:23 From  305821-ขวัญแก้ว  to  Everyone:
+	ขวัญแก้ว ทรงสินสมบัติ
+11:28:23 From  k u l l a s u p  to  Everyone:
+	กุลทรัพย์ ผ่องศรีสุข
+11:28:24 From  sun ny  to  Everyone:
+	พลกฤษณ์ เชยเกตุ
+11:28:26 From  นพพร ชนเจริญ  to  Everyone:
+	นพพร ชนเจริญ
+11:28:29 From  pornpimol chaiwuttisak  to  Everyone:
+	พรพิมล ชัยวุฒิศักดิ์
+11:28:30 From  Teera M  to  Everyone:
+	ธีระ  มีโอภาสมงคล
+11:28:34 From  ประดิษฐ์  to  Everyone:
+	ประดิษฐ์ ศรีสกุลอนุสรณ์
+11:28:37 From  Sungkom Piam  to  Everyone:
+	สังคม  เปี่ยมวิริยวงศ์
+11:28:40 From  Thannicha Thongyoo  to  Everyone:
+	ธัญณิชา ทองอยู่
+11:28:41 From  PBRU  to  Everyone:
+	ธรรมา ลอยพโยม
+11:28:43 From  Thakerng  to  Everyone:
+	เถกิง ดำขำ
+11:28:53 From  บุญเชิด พานทอง  to  Everyone:
+	บุญเชิด พานทอง
+11:30:04 From  Thannicha Thongyoo  to  Everyone:
+	ขอบคุณค่ะ
+11:30:09 From  PBRU  to  Everyone:
+	เรืองฤทธิ์ เดือนทองสุข
+11:30:52 From  วีรพงษ์  to  Everyone:
+	วีรพงษ์ ธรรมวิบูลย์ศรี

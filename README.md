@@ -12,5 +12,5 @@ Colab:
 7. [แสดงสิทธิ์การรักษา](https://github.com/suwat9/PythonClass/blob/main/CodeAI/priority1.py)
 8. [แสดงกราฟแยกตามสิทธิ์การรักษา](https://github.com/suwat9/PythonClass/blob/main/CodeAI/priorityGraph.py)
 
-9. Plotly
+### Plotly
 10. [การปรับค่าต่างๆ ใน Plotly](https://plotly.com/python/creating-and-updating-figures/)

@@ -6,3 +6,6 @@ Using Notable plugin and then translate in Thai.
 Prompt for summerize paper
 summerize the paper: {{paper}}.
 Using Science plugin and then translate in Thai.
+
+ChatGPT 4.0 cap = 25 messages
+https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4

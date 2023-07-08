@@ -1,0 +1,8 @@
+Prompt for coding
+Python coding: {{algorithm}}.
+Using Notable plugin and then translate in Thai.
+
+
+Prompt for summerize paper
+summerize the paper: {{paper}}.
+Using Science plugin and then translate in Thai.

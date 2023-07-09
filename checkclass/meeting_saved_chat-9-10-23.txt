@@ -1,0 +1,62 @@
+09:28:58 From  Information Faculty  to  Everyone:
+	import pandas as pd		dataset = pd.read_excel('test1.xlsx', None)	df = dataset['Sheet4']		df
+09:32:05 From  Information Faculty  to  Everyone:
+	import pandas as pd		dataset = pd.read_excel('test1.xlsx', None)	df = dataset['Sheet4']		print(len(df))	df = df.drop_duplicates()		print(len(df))	df
+10:02:17 From  Information Faculty  to  Everyone:
+	import pandas as pd		dataset = pd.read_excel('test1.xlsx', None)		df = dataset['Sheet4']	# delete column old_code		df = df.drop(['income'], axis=1) #, inplace=True)	df.info()
+10:08:12 From  Information Faculty  to  Everyone:
+	import pandas as pd		dataset = pd.read_excel('test1.xlsx', None)		df = dataset['Sheet4']		key_delete = ['ข้าราชการ/ลูกจ้างจ่ายตรง', '	พ.ร.บ. ประกันสังคม']		address = df[df['pttype_name'].isin(key_delete)].index		df = df['pttype_name'].drop(address, axis=0, errors='ignore')	df
+10:27:37 From  Information Faculty  to  Everyone:
+	!gdown -O test1.xlsx 1mNF8AhJHqB0dsGvlCsOTtwyRU9DOlvwE		import pandas as pd		dataset = pd.read_excel('test1.xlsx', None)		df1 = dataset['ward']	df2 = dataset['sum_admit']		df1
+10:32:47 From  Information Faculty  to  Everyone:
+	import pandas as pd		dataset = pd.read_excel('test1.xlsx', None)		df1 = dataset['ward']	df2 = dataset['sum_admit']		df_ward = pd.merge(df2, df1, left_on=['code'], right_on=['ward'], how='inner')	df_ward
+10:38:37 From  Information Faculty  to  Everyone:
+	import pandas as pd		dataset = pd.read_excel('test1.xlsx', None)		df1 = dataset['ward']	df2 = dataset['sum_admit']	print(len(df2))		df_ward = pd.merge(df2, df1, left_on=['code'], right_on=['ward'], how='inner')		df_ward = df_ward.drop(['ward', 'old_code', 'spclty'], axis=1)	df_ward
+10:40:50 From  Chutimaporn Trainapakul  to  Everyone:
+	เป็นไฟล์อะไรคะอจ.
+10:41:18 From  ณิรุต รพ.พระจอมเกล้า  to  Everyone:
+	Sheet OVST ที่ Field hospmain จะ join กับ File Excel hospcode ครับ
+10:55:03 From  Information Faculty  to  Everyone:
+	import pandas as pd		dataset = pd.read_excel('test1.xlsx', None)	hospital = pd.read_excel('hospcode.xlsx', None)		df1 = dataset['ward']	df2 = dataset['sum_admit']	df3 = dataset['Sheet4']	df4 = dataset['ovst']	df5 = hospital['hoscode']	print(len(df2))		df_ward = pd.merge(df2, df1, left_on=['code'], right_on=['ward'], how='inner')		df_ward = df_ward.drop(['ward', 'old_code', 'spclty'], axis=1)		df4 = df4.dropna()	df4['hospmain'] = df4['hospmain'].astype(int)		df_hosp = pd.merge(df4, df5, left_on=['hospmain'], right_on=['hcode'])	df_hosp
+10:56:01 From  Information Faculty  to  Everyone:
+	https://colab.research.google.com/drive/16xC4G8d8dHlR-6277obwsOUiJrRWGzye?usp=sharing
+11:05:23 From  Thannicha Thongyoo  to  Information Faculty(Direct Message):
+	อาจารย์พอทราบวิธีแก้ปัญหา API KEY โดน block ไหมคะ
+11:06:20 From  Thannicha Thongyoo  to  Information Faculty(Direct Message):
+	อาจารย์พอทราบวิธีแก้ปัญหา API KEY ของ Open AI โดน block ไหมคะ
+11:39:28 From  Thannicha Thongyoo  to  Everyone:
+	AI เป็นโจทย์และความท้าทาย ระบการศึกษาต้องปรับเปลี่ยนแบบพลิกโฉม ไม่ว่าจะระบบ หลักสูตร รูปแบบวิธีการจัดการเรียนการสอน
+11:39:57 From  WIRAT  to  Everyone:
+	วิรัตน์ จำพรต
+11:39:57 From  บุญเชิด พานทอง  to  Everyone:
+	บุญเชิด พานทอง
+11:40:02 From  Sakarin Habusaya  to  Everyone:
+	นายสาครินทร์ หาบุศย์
+11:40:03 From  Thannicha Thongyoo  to  Everyone:
+	ธัญณิชา ทองอยู่
+11:40:07 From  Sungkom Piam  to  Everyone:
+	สังคม เปี่ยมวิริยวงศ์
+11:40:09 From  Thakerng D  to  Everyone:
+	เถกิง ดำขำ
+11:40:11 From  Paisarn Khanteesa  to  Everyone:
+	ไพศาล ขันตีสา
+11:40:12 From  นพพร ชนเจริญ  to  Everyone:
+	นพพร ชนเจริญ
+11:40:13 From  Pasathorn Sirithiranont  to  Everyone:
+	พสธร ศิริธีรานนท์
+11:40:14 From  ประดิษฐ์  to  Everyone:
+	ประดิษฐ์ ศรีสกุลอนุสรณฺ์
+11:40:15 From  นาย บุญยม สายบุตร  to  Everyone:
+	นาย บุญยม สายบุตร
+11:40:16 From  Thee  to  Everyone:
+	ธีระวัฒน์ มิ่งขวัญ
+11:40:20 From  Chutimaporn Trainapakul  to  Everyone:
+	ชุติมาพร ไตรนภากุล
+11:40:20 From  ธีระ  มีโอภาสมงคล  to  Everyone:
+	ธีระ  มีโอภาสมงคล
+11:40:22 From  สัญชวัล หอมกุหลาบ  to  Everyone:
+	สัญชวัล หอมกุหลาบ
+11:40:42 From  sun ny  to  Everyone:
+	พลกฤษณ์ เชยเกตุ
+11:41:11 From  วีรพงษ์  to  Everyone:
+	วีรพงษ์ ธรรมวิบูลย์ศรี

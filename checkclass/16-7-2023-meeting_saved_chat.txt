@@ -1,0 +1,72 @@
+09:52:07 From  Sakarin Habusaya  to  Everyone:
+	เปลี่ยนแล้วคระบ
+09:52:36 From  Sakarin Habusaya  to  Everyone:
+	สาครินทร์ หาบุศย์
+09:52:57 From  Sakarin Habusaya  to  Everyone:
+	ระบบคลังข้อมูลงานวิจัยด้านสาธารณสุข
+09:53:15 From  Sakarin Habusaya  to  Everyone:
+	นำเสนอไปแล้วครับ
+09:53:42 From  Sakarin Habusaya  to  Everyone:
+	1.ไฟล์นำเสนอ 2.คู่มือใช้งานระบบ 3.เอกสารโครงงาน
+10:07:40 From  Sungkom Piam  to  Everyone:
+	https://docs.google.com/spreadsheets/d/15DnusYeXasQ8YYr7UP6uIywqCi6Oz8mGkD-Wk8bWaQo/edit?usp=sharing
+10:11:43 From  life is learning  to  Everyone:
+	เห็นครับ
+10:17:12 From  Paisarn Khanteesa  to  Everyone:
+	ทันครับ
+10:20:48 From  WIRAT  to  Everyone:
+	ทันครับ
+10:20:54 From  Paisarn Khanteesa  to  Everyone:
+	ทันครับ
+10:21:06 From  Sungkom Piam  to  Everyone:
+	ทันครับ
+10:35:21 From  Information Faculty  to  Everyone:
+	python.exe -m pip install --upgrade pip
+10:38:23 From  Information Faculty  to  Everyone:
+	pip install plotly pandas numpy
+10:38:24 From  บุญเชิด พานทอง  to  Everyone:
+	แชรหน้าจอด้วยครับ
+10:39:13 From  Information Faculty  to  Everyone:
+	import plotly.express as px	import pandas as pd	import numpy as np		dataset = pd.read_excel('test1.xlsx',None)	df = dataset['sum_admit']	df.describe()	df = df[df['code'].astype(int)>0]	df['code'] = df['code'].astype(str)	df = df.sort_values('code')		fig = px.bar(y=df['code'], x=df['bedcount'], title="จำนวนเตียงใน ward", text=df['bedcount'], orientation='h')	fig.update_traces(textposition="outside", textfont=dict(family="sans serif", size=16, color="Red"))	fig.update_xaxes(title_text='ward')	fig.update_yaxes(title_text='จำนวนเตียง')		myList = df['code'].unique()	myList = np.sort(myList)	label1 = [str(x) for x in myList]		print(myList)	print(label1)		fig.update_layout(	     title=dict(text="จำนวนเตียงใน ward", font=dict(size=30, color='Red'),  yref='paper'),	     title_pad_l=430,	     legend=dict(title_text='เตียง'),	     xaxis = dict(	        tickmode = 'array',	        tickvals = myList,	        ticktext = label1	     )	)		fig.show()
+10:41:47 From  Information Faculty  to  Everyone:
+	pip install openpyxl
+10:48:55 From  Paisarn Khanteesa  to  Everyone:
+	ตอนนี้หน้าจออยู่ที่ vs code ครับ
+10:49:51 From  Paisarn Khanteesa  to  Everyone:
+	หมายถึง อ.ไม่ได้แชร์ทั้ง screen ครับ
+11:01:23 From  Information Faculty  to  Everyone:
+	pip install -U Flask
+11:02:43 From  Information Faculty  to  Everyone:
+	# save this as app.py	from flask import Flask		app = Flask(__name__)		@app.route("/")	def hello():	    return "Hello, World!"
+11:24:11 From  Sungkom Piam  to  Everyone:
+	อ.รบกวน ขอไฟล์ทั้งหมดครับ
+11:27:24 From  Paisarn Khanteesa  to  Everyone:
+	ขอสลับหน้อจอด้วยครับ
+11:34:17 From  บุญเชิด พานทอง  to  Everyone:
+	ขอสลับหน้อจอด้วยครับ
+11:36:49 From  Information Faculty  to  Everyone:
+	https://9c37-2001-3c8-2105-1124-8d68-b58c-5f32-511d.ngrok-free.app
+11:46:24 From  WIRAT  to  Everyone:
+	วิรัตน์ จำพรต
+11:46:28 From  Paisarn Khanteesa  to  Everyone:
+	ไพศาล ขันตีสา
+11:46:30 From  Thakerng D  to  Everyone:
+	เถกิง ดำขำ
+11:46:33 From  Sakarin Habusaya  to  Everyone:
+	นายสาครินทร์ หาบุศยื
+11:46:36 From  ธีระ  มีโอภาสมงคล  to  Everyone:
+	ธีระ  มีโอภาสมงคล
+11:46:40 From  life is learning  to  Everyone:
+	สมบูรณ์ ปานโยธา
+11:46:44 From  นพพร ชนเจริญ  to  Everyone:
+	นพพร ชนเจริญ
+11:46:49 From  บุญเชิด พานทอง  to  Everyone:
+	บุญเชิด พานทอง
+11:46:55 From  633924  to  Everyone:
+	ธรรมา ลอยพโยม
+11:47:01 From  PBRU 16Jul2023  to  Everyone:
+	เจ้าพระยา อาเซียน
+11:47:06 From  Sungkom Piam  to  Everyone:
+	สังคม เปี่ยมวิริยวงศ์
+11:48:08 From  วีรพงษ์ ธรรมวิบูลย์ศรี  to  Everyone:
+	วีรพงษ์ ธรรมวิบูลย์ศรี
